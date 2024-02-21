@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+    <title>Accueil</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="logo">
+                <img src="img/logo_header.png" alt="Les Amis du Jardin">
+            </div>
+            <nav>
+                <ul>
+                    <li class="disabled"><a href="index.html">Accueil</a></li>
+                    <li><a href="entretien.html">Entretien</a></li>
+                    <li><a href="creation.html">Création</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="langue">
+                <a class="disabled" href="#"><img src="img/france.png" alt="Français"></a>
+                <a href="index-en.html"><img src="img/united-kingdom.png" alt="English"></a>
+            </div>
+        </header>
+        <div class="main">
+                <h1>Paysagistes & Jardiniers</h1>
+                <h2>À St-Jean du Doigt<br>en Baie de Morlaix (29)</h2>
+        </div>
+        <section class="top-section">
+            <img src="img/ladj.png" alt="Les amis du Jardin">
+            <div class="divider"></div>
+            <h1>Depuis 2016, Pierre, Thomas et leurs équipes sont au service de vos espaces verts,<br>de la conception à l'aménagement et l'entretien</h1>
+            <div class="card-container">
+                <div class="make-3D-space">
+                    <div class="product-card">
+                        <div class="product-front">
+                            <div class="shadow"></div>
+                            <img src="img/concept-pays.jpg" alt="" />
+                            <div class="image_overlay"></div>
+                            <a href="creation.html" onclick="example()"><div class="view_details">En savoir plus</div></a>
+                            <div class="stats">         
+                                <div class="stats-container">
+                                    <span class="product_name">CONCEPTION PAYSAGÈRE</span> 
+                                    <ul class="service-list">
+                                        <li>Étude paysagère sur site</li>
+                                        <li>Prise en compte de vos goûts</li>
+                                        <li>Esquisses</li>
+                                        <li>Devis personnalisé et gratuit</li>
+                                        <li>Choix des matériaux et plantes</li>
+                                    </ul>                                                                                
+                                </div>                                                
+                            </div>
+                        </div>    
+                    </div>  
+                </div>
+                <div class="make-3D-space">
+                    <div class="product-card">
+                        <div class="product-front">
+                            <div class="shadow"></div>
+                            <img src="img/amenag-espace.jpg" alt="" />
+                            <div class="image_overlay"></div>
+                            <a href="creation.html"><div class="view_details">En savoir plus</div></a>
+                            <div class="stats">         
+                                <div class="stats-container">
+                                    <span class="product_name">AMÉNAGEMENTS D'ESPACES VERTS</span> 
+                                    <ul class="service-list">
+                                        <li>Terrassement paysager</li>
+                                        <li>Maçonnerie paysagère</li>
+                                        <li>Clôtures et portillons</li>
+                                        <li>Terrasses et espaces à vivre</li>
+                                        <li>Engazonnement et plantations</li>
+                                        <li>Aménagement cours et allées</li>
+                                        <li>Jardins potagers en permaculture</li>
+                                    </ul>                                                                                
+                                </div>                                                
+                            </div>
+                        </div>    
+                    </div>  
+                </div>
+                <div class="make-3D-space">
+                    <div class="product-card">
+                        <div class="product-front">
+                            <div class="shadow"></div>
+                            <img src="img/entretien.jpg" alt="" />
+                            <div class="image_overlay"></div>
+                            <a href="entretien.html"><div class="view_details">En savoir plus</div></a>
+                            <div class="stats">         
+                                <div class="stats-container">
+                                    <span class="product_name">ENTRETIEN DE JARDINS</span> 
+                                    <ul class="service-list">
+                                        <li>Tonte, taille, désherbage</li>
+                                        <li>Débroussaillage, ramassage des feuilles</li>
+                                        <li>Abattage et élagage</li>
+                                        <li>Gestion différenciée</li>
+                                        <li>Contrat annuel ou prestations ponctuelles</li>
+                                        <li class="gras">Agrément Service à la personne</li>
+                                    </ul>                                                                                
+                                </div>                                                
+                            </div>
+                        </div>    
+                    </div>  
+                </div>
+            </div>
+            <div class="text-wrapper">
+                <div class="arrow-left"></div>
+                <p>Nous nous chargeons de la conception, de l'aménagement et de l'entretien de vos espaces verts. Nous intervenons chez les particuliers 
+                    et professionnels en Finistère, dans le bassin morlaisien, dans un rayon de 30 km autour de Saint-Jean-du-Doigt.<br><br>Nos valeurs : Professionalisme & Réactivité.</p>
+            </div>
+        </section>
+        <section class="mid-section">
+            <div class="about">
+                <div class="shape1" id="first">
+                    <img src="img/thomas.jpg" alt="Pierre" id="first">
+                </div>
+                <p>Thomas & Pierre, tous deux formés aux travaux et aménagements paysagers, se sont d'abord forgés une expérience professionnelle 
+                    chacun de leur côté, en France et à l'étranger avant de créer ensemble leur entreprise de paysage.<br><br><br>Sensibles à l'écologie et à l'environnement, 
+                    ils privilégient des techniques de jardinage respectueuses de la nature, travaillent sur le développement en autosuffisance 
+                    des jardins pour des espaces en bonne santé et un entretien facilité.</p>
+                <div class="shape2" id="second">
+                    <img src="img/pierre.jpg" alt="Thomas" id="second">
+                </div>
+            </div>
+        </section>
+        <script src= "script.js"></script>
+        <section class="bottom-section">
+            <h1>[ Les derniers avis ]</h1>
+            <div class="reviews-container">
+                <div class="title-review">
+                    <h3>Elisabeth Claverie</h3>
+                    <i class="fa-brands fa-square-google-plus"></i>
+                </div>
+                <div class="stars">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <p>Ponctualité, Professionalisme, Qualité, Rapport Qualité-prix, Réactivité, une équipe parfaite.</p>
+            </div>
+            <div class="reviews-container rev2">
+                <div class="title-review">
+                    <h3>Agri Passion 29</h3>
+                    <i class="fa-brands fa-square-google-plus"></i>
+                </div>
+                <div class="stars">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <p>Avis laissé sans commentaire</p>
+            </div>
+            <div class="reviews-container rev2">
+                <div class="title-review">
+                    <h3>Vincent Nuiaouet</h3>
+                    <i class="fa-brands fa-square-google-plus"></i>
+                </div>
+                <div class="stars">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <p>Professionalisme.</p>
+            </div>
+        </section>
+        <footer>
+            <div class="left-container">
+                <img src="img/logo_footer.png" alt="Les amis du Jardin">
+                <address>Lieu dit Kerampont - 29630 St Jean du Doigt</address>
+                <a href="mailto:lesamisdujardin29@yahoo.fr">Email</a>
+                <p>© 2022, Welcomm29 - All rights reserved</p>
+            </div>
+            <div class="mid-container">
+                <div class="services-container">
+                    <img src="img/sap.png" alt="Service à la personne" class="resize-img-footer">
+                    <img src="img/reduc.png" alt="Crédit d'impôt">
+                </div>
+                <div class="tel-container">
+                    <img src="img/phone.png" alt="Téléphone">
+                    <div class="num-container">
+                        <p>06 88 77 43 91</p>
+                        <p>06 88 77 83 22</p>
+                    </div>
+                </div>
+                <p>SIRET : 820 829 075 00010</p>
+            </div>
+            <div class="right-container">
+                <h1>Suivez-nous !</h1>
+                <div class="social-container">
+                    <a href="https://fr-fr.facebook.com/lesamisdujardin29/" target="_blank"><i class="fa-brands fa-facebook color-fb"></i></a>
+                    <a href="https://www.instagram.com/les_amis_du_jardin/?hl=fr" target="_blank"><i class="fa-brands fa-instagram color-insta"></i></a>
+                </div>
+                <div class="review-widget_net" data-uuid="92a79bcc-cdf1-4107-b9ef-da22b49436d8" data-template="5" data-filter="" data-lang="fr" data-theme="light">
+                    <a href="https://www.review-widget.net/" target="_blank" rel="noopener">
+                        <img src="https://grwapi.net/assets/spinner/spin.svg" title="Google Review Widget" alt="Review Widget">
+                    </a>
+                </div>
+                <script async type="text/javascript" src="https://grwapi.net/widget.min.js"></script>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

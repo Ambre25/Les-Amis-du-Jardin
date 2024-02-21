@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="page-contact">
+        <header>
+            <div class="logo">
+                <img src="img/logo_header.png" alt="Les Amis du Jardin">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index-en.html" class="en">Home</a></li>
+                    <li><a href="entretien-en.html" class="en">Maintenance</a></li>
+                    <li><a href="creation-en.html" class="en">Creation</a></li>
+                    <li><a href="realisations-en.html" class="en">Achievements</a></li>
+                    <li class="disabled"><a href="contact-en.html" class="en">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="langue">
+                <a href="contact.html"><img src="img/france.png" alt="Français"></a>
+                <a class="disabled" href="#"><img src="img/united-kingdom.png" alt="English"></a>
+            </div>
+        </header>
+        <div class="full-container">
+            <div class="left-contact">
+                <img class="avions" src="img/logo-contact.png" alt="">
+                <h1>Les Amis du Jardin.</h1>
+                <p>Please do not hesitate to contact us if you have any questions or would like a quote. We will be happy to answer you.</p>
+                <p>Want to know more? Follow us on social networks!</p>
+                <div class="social-contact-container">
+                    <a href="https://www.facebook.com/lesamisdujardin29/" target="_blank"><img src="img/logo-de-lapplication-facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/les_amis_du_jardin/?hl=fr" target="_blank"><img src="img/instagram.png" alt=""></a>
+                    <a href="#"><img src="img/youtube.png" alt="" target="_blank"></a>
+                </div>
+            </div>
+            <div class="right-contact">
+                <h1>KEEP IN TOUCH</h1>
+                <h3>We will reply as soon as possible.</h3>
+                <form action="contact-form-handler-en.php" id="form" method="post" name="form1">
+                    <div class="nom-prenom">
+                        <input name="nom" type="text" class="feedback-input" placeholder="Last Name">
+                        <input name="prenom" type="text" class="feedback-input" placeholder="First Name" id="surname">
+                    </div>
+                    <input name="mail" type="email" class="feedback-input" placeholder="Email">
+                    <input name="phone" type="tel" class="feedback-input" placeholder="Phone">
+                    <input name="ville" type="text" class="feedback-input" placeholder="City">
+                    <textarea name="text" class="feedback-input" placeholder="Your message"></textarea>
+                    <button type="submit" id="btn-submit">Send</button>
+                </form>
+                <script src="form.js"></script>
+            </div>
+        </div>
+        <footer>
+            <div class="left-container">
+                <img src="img/logo_footer.png" alt="Les amis du Jardin">
+                <address>Lieu dit Kerampont - 29630 St Jean du Doigt</address>
+                <a href="mailto:lesamisdujardin29@yahoo.fr">Email</a>
+                <p>© 2022, Welcomm29 - All rights reserved</p>
+            </div>
+            <div class="mid-container">
+                <div class="services-container">
+                    <img src="img/sap.png" alt="Service à la personne">
+                    <img src="img/reduc.png" alt="Crédit d'impôt">
+                </div>
+                <div class="tel-container">
+                    <img src="img/phone.png" alt="Téléphone">
+                    <div class="num-container">
+                        <p>06 88 77 43 91</p>
+                        <p>06 88 77 83 22</p>
+                    </div>
+                </div>
+                <p>SIRET : 820 829 075 00010</p>
+            </div>
+            <div class="right-container">
+                <h1>Suivez-nous !</h1>
+                <div class="social-container">
+                    <a href="https://fr-fr.facebook.com/lesamisdujardin29/" target="_blank"><i class="fa-brands fa-facebook color-fb"></i></a>
+                    <a href="https://www.instagram.com/les_amis_du_jardin/?hl=fr" target="_blank"><i class="fa-brands fa-instagram color-insta"></i></a>
+                </div>
+                <div class="review-widget_net" data-uuid="92a79bcc-cdf1-4107-b9ef-da22b49436d8" data-template="5" data-filter="" data-lang="fr" data-theme="light">
+                    <a href="https://www.review-widget.net/" target="_blank" rel="noopener">
+                        <img src="https://grwapi.net/assets/spinner/spin.svg" title="Google Review Widget" alt="Review Widget">
+                    </a>
+                </div>
+                <script async type="text/javascript" src="https://grwapi.net/widget.min.js"></script>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
